@@ -14,7 +14,7 @@ final class CKEditor extends Textarea
 
     protected string $attachmentEndpoint = '';
 
-    public function getAssets(): array
+    protected function assets(): array
     {
         return [
             Css::make('vendor/moonshine-ckeditor/css/ckeditor.css'),
